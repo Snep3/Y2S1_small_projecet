@@ -1,4 +1,4 @@
-# Y2S1_small_projecet
+## Y2S1_small_projecet
 
 # Structure 
 * hello-world.js  - app code

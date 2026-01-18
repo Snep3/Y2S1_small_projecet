@@ -9,11 +9,7 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
-RUN useradd -m devopsuser
-RUN chown -R devopsuser:devopsuser /app
-USER devopsuser
-
-COPY --chown=devopsuser:devopsuser hello-world.js .
+COPY hello-world.js .
 
 EXPOSE 3000
 

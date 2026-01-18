@@ -1,11 +1,11 @@
-## Y2S1_small_projecet
+# Y2S1_small_projecet
 
-# Structure 
+## Structure 
 * hello-world.js  - app code
 * Dockerfile  - creates image with ubuntu
 * README.md - casual readme file
 
-# to run the image:
+## to run the image:
 ```
 install
 docker build -t hello-devops .
